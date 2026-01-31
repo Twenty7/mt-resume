@@ -23,22 +23,22 @@ const print = () => {
 <template>
   <ul :class="props.classes">
     <li>
-      <button class="btn" @click="print()">
+      <button class="btn text-lg md:text-xl" @click="print()">
         <font-awesome-icon :icon="['fa', 'print']" />
       </button>
     </li>
     <li>
-      <a href="tel:+19513156113" class="btn">
+      <a href="tel:+19513156113" class="btn text-lg md:text-xl">
         <FontAwesomeIcon :icon="['fa', 'phone']" />
       </a>
     </li>
     <li>
-      <a href="mailto:mtaylor@eight9.net" class="btn">
+      <a href="mailto:mtaylor@eight9.net" class="btn text-lg md:text-xl">
         <FontAwesomeIcon :icon="['fa', 'envelope']" />
       </a>
     </li>
     <li>
-      <a href="https://www.linkedin.com/in/mtaylor-twenty7/" class="btn">
+      <a href="https://www.linkedin.com/in/mtaylor-twenty7/" class="btn text-lg md:text-xl" target="_blank">
         <FontAwesomeIcon :icon="['fab', 'linkedin']" />
       </a>
     </li>

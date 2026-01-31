@@ -29,7 +29,7 @@ import ContactMenu from './ContactMenu.vue';
 
       <div class="navbar-end ml-5 flex-1">
         <contact-menu
-          classes="menu menu-horizontal gap-y-2 gap-x-2 md:gap-x-4 xl:gap-x-6 text-sm md:text-lg md:text-xl justify-right"
+          classes="menu menu-horizontal gap-y-2 gap-x-2 md:gap-x-4 xl:gap-x-6 justify-right"
         />
       </div>
     </div>
