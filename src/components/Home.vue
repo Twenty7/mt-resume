@@ -57,7 +57,7 @@
           <li>Linux, Mac, Windows</li>
           <li>CSS, XHTML, XML, JSON, SQL, NOSQL</li>
           <li>PHP, Golang, JavaScript, Typescript, NodeJS, Python, Perl</li>
-          <li>PostgreSQL, MySQL, Redis, Elastic Search, MongoDB</li>
+          <li>PostgreSQL, MySQL, TimeScaleDB, Redis, Elastic Search, MongoDB</li>
           <li>PHP-FPM, Traefik, Nginx, Apache, Varnish, RabbitMQ, SQS</li>
           <li>Docker, Auto Scaling, Ansible, Vagrant, NewRelic, DataDog</li>
           <li>AWS, Cloud Formation, EC2, RDS, S3, ELB, Lambda, ECS/Fargate, SQS</li>
@@ -112,7 +112,7 @@
           Responsibilities included designing and creating a customer dashboard to log, report, and notify users of power analytics and anomalies for Solar and Wind Turbine systems. The system also integrated with RTSP security cameras to run images through Ultralytics AI vision for people detection and notifying users.
         </p>
         <p class="text-sm">
-          PHP, NodeJS, PostgreSQL, VueJS, AWS, System Administration, SMS, Queuing, Web Push Notifications, Slack API
+          PHP, NodeJS, PostgreSQL, TimeScaleDB, VueJS, AWS, System Administration, SMS, Queuing, Web Push Notifications, Slack API
         </p>
       </ExpComponent>
 
