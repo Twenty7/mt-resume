@@ -1,9 +1,8 @@
 <script setup>
-// Header component
 const props = defineProps({
   classes: {
     type: String,
-    default: 'menu menu-horizontal gap-x-6 justify-center'
+    default: 'menu menu-horizontal gap-2 justify-right'
   },
   hover: {
     type: Boolean,
@@ -25,22 +24,22 @@ const print = () => {
   <ul :class="props.classes">
     <li>
       <button class="btn" @click="print()">
-        <font-awesome-icon :icon="['fa', 'print']" size="lg" />
+        <font-awesome-icon :icon="['fa', 'print']" />
       </button>
     </li>
     <li>
       <a href="tel:+19513156113" class="btn">
-        <FontAwesomeIcon :icon="['fa', 'phone']" size="xl" />
+        <FontAwesomeIcon :icon="['fa', 'phone']" />
       </a>
     </li>
     <li>
       <a href="mailto:mtaylor@eight9.net" class="btn">
-        <FontAwesomeIcon :icon="['fa', 'envelope']" size="xl" />
+        <FontAwesomeIcon :icon="['fa', 'envelope']" />
       </a>
     </li>
     <li>
       <a href="https://www.linkedin.com/in/mtaylor-twenty7/" class="btn">
-        <FontAwesomeIcon :icon="['fab', 'linkedin']" size="xl" />
+        <FontAwesomeIcon :icon="['fab', 'linkedin']" />
       </a>
     </li>
   </ul>

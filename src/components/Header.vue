@@ -9,7 +9,7 @@ import ContactMenu from './ContactMenu.vue';
 <template>
   <header class="header sticky top-0 z-50 print:hidden">
     <div class="navbar bg-base-100 shadow-sm">
-      <div class="navbar-start flex-2">
+      <div class="navbar-start flex-1">
         <div class="dropdown">
           <div tabindex="0" role="button" class="btn btn-lg btn-ghost lg:hidden">
             <font-awesome-icon :icon="['fa', 'bars']" size="lg" />
@@ -23,12 +23,14 @@ import ContactMenu from './ContactMenu.vue';
         </div>
       </div>
 
-      <div class="navbar-center hidden lg:flex flex-auto">
+      <div class="navbar-center hidden lg:flex flex-auto justify-center">
         <navigation-menu />
       </div>
 
       <div class="navbar-end ml-5 flex-1">
-        <contact-menu />
+        <contact-menu
+          classes="menu menu-horizontal gap-y-2 gap-x-2 md:gap-x-4 xl:gap-x-6 text-sm md:text-lg md:text-xl justify-right"
+        />
       </div>
     </div>
   </header>

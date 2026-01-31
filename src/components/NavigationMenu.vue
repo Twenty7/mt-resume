@@ -1,5 +1,4 @@
 <script setup>
-// Header component
 const props = defineProps({
   classes: {
     type: String,
