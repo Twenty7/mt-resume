@@ -1,0 +1,89 @@
+@use "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calibri:400,700,400italic,700italic&display=swap');
+
+@plugin "daisyui" {
+  themes: corporate --default;
+  root: ":root";
+  // --color-primary: blue;
+  --color-secondary: teal;
+  --tab-content-radius-ss: 3.5rem;
+  --tab-content-radius-se: 3.5rem;
+  --tab-content-radius-es: 3.5rem;
+  --tab-content-radius-ee: 3.5rem;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Calibri', Arial, sans-serif;
+}
+.subtitle {
+  font-family: 'Noto Serif Georgian', Georgia, 'Times New Roman', Times, serif, serif;
+  break-after: avoid;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+  break-after: avoid;
+}
+
+
+@media print {
+  .main-layout, .main-content {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .mt-resume {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-size: 0.9em;
+    .inner-container {
+      padding: 0;
+      border: none;
+      .text-sm {
+        font-size: 0.86em;
+      }
+    }
+    .exp-component {
+      .exp-container {
+        margin-top: 1em;
+      }
+    }
+  }
+  @page {
+    size: auto;
+    margin: 8mm 8mm 8mm 8mm;
+    @top-left {
+      margin-top: 5mm;
+      content: "";
+    }
+    @top-center {
+      margin-top: 5mm;
+      content: "";
+    }
+    @top-right {
+      margin-top: 5mm;
+      content: "";
+    }
+    @bottom-left {
+      margin-bottom: 5mm;
+      content: "";
+    }
+    @bottom-right {
+      margin-bottom: 5mm;
+      content: "";
+    }
+  }
+  #__vue-devtools-container__ {
+    display: none;
+  }
+  .exp-component {
+    page-break-inside: avoid;
+  }
+}
