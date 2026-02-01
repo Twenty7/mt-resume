@@ -261,7 +261,7 @@
         company="Previous History"
         title="Manager / Software Developer"
         location="Illuminate Education, Houghton Mifflin Harcourt, Achieve! Data Solutions"
-        date=""
+        date="2005 - 2018"
         locationClass="text-sm"
         :leftWidth="3"
         :rightWidth="2"
