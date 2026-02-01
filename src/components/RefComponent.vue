@@ -1,4 +1,6 @@
 <script setup>
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+
   const props = defineProps({
     person: {
       type: String,
@@ -38,10 +40,10 @@
 
       <div class="flex gap-4">
         <div class="flex-1 text-sm">
-          {{ props.phone }}
+          <FontAwesomeIcon :icon="['fa', 'phone']" class="text-secondary" /> {{ props.phone }}
         </div>
         <div class="flex-1 text-sm text-right">
-          {{ props.email }}
+          <FontAwesomeIcon :icon="['fa', 'envelope']" class="text-secondary" /> {{ props.email }}
         </div>
       </div>
     </div>
