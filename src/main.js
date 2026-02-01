@@ -16,6 +16,7 @@ import {
   faHouse,
   faGlobe,
   faPrint,
+  faCheckCircle,
 } from '@fortawesome/free-solid-svg-icons';
 library.add(
   faBars,
@@ -27,6 +28,7 @@ library.add(
   faHouse,
   faGlobe,
   faPrint,
+  faCheckCircle,
 );
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 library.add(

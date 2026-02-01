@@ -34,43 +34,101 @@
         </div>
       </div>
 
-      <h2 class="subtitle text-xl font-bold">Summary</h2>
-      <p>
-        Senior Software Developer with more than 10 years of professional experience in architecting and developing online web applications as well as their supporting infrastructure. Primary technical focus points include PHP, Javascript, NodeJS, GO, PostgreSQL, AWS, Docker, Terraform, Ansible, as well as instrumentation and application optimization for high throughput web applications. Strong background in system architecture, requirements gathering, project management, leadership, and peer mentorship.
+      <h2 class="subtitle text-lg font-bold mt-1 mb-1 border-b-2 border-primary">Professional Summary</h2>
+      <p class="leading-normal">
+        Senior Software Developer with 15+ years of professional experience architecting and delivering high-performance web applications across Education Technology, Blockchain, Energy Analytics, and Media Advertisement industries. Proven expertise in full-stack development, cloud infrastructure, and DevOps practices. Specialized in building scalable systems capable of handling 25k+ concurrent users with sub-200ms response times. Strong track record in technical leadership, system architecture, and cross-functional collaboration.
       </p>
 
-      <h2 class="subtitle text-xl font-bold">Personal Skills</h2>
-      <div class="mx-8">
-        <ul class="list-disc grid grid-cols-2 text-sm gap-x-8 gap-y-1 text-sm">
-          <li>Fluent in written and spoken English</li>
-          <li>Self-Managed</li>
-          <li>Effective Collaborator</li>
-          <li>Fast Learner</li>
-          <li>Detail Oriented</li>
-          <li>Dedicated, Reliable, & Passionate</li>
-        </ul>
+      <h2 class="subtitle text-lg font-bold mt-2 mb-1 border-b-2 border-primary pb-1">Core Competencies</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-1 text-xs">
+        <div class="flex items-center gap-1">
+          <FontAwesomeIcon :icon="['fa', 'check-circle']" class="text-secondary" />
+          <span>Remote Collaboration</span>
+        </div>
+        <div class="flex items-center gap-1">
+          <FontAwesomeIcon :icon="['fa', 'check-circle']" class="text-secondary" />
+          <span>Self-Directed Leadership</span>
+        </div>
+        <div class="flex items-center gap-1">
+          <FontAwesomeIcon :icon="['fa', 'check-circle']" class="text-secondary" />
+          <span>Rapid Technology Adoption</span>
+        </div>
+        <div class="flex items-center gap-1">
+          <FontAwesomeIcon :icon="['fa', 'check-circle']" class="text-secondary" />
+          <span>Agile Methodologies</span>
+        </div>
+        <div class="flex items-center gap-1">
+          <FontAwesomeIcon :icon="['fa', 'check-circle']" class="text-secondary" />
+          <span>Technical Mentorship</span>
+        </div>
+        <div class="flex items-center gap-1">
+          <FontAwesomeIcon :icon="['fa', 'check-circle']" class="text-secondary" />
+          <span>Problem Solving</span>
+        </div>
       </div>
 
-      <h2 class="subtitle text-xl font-bold">Tech Skills</h2>
-      <div class="mx-8">
-        <ul class="list-disc grid grid-cols-2 text-sm gap-x-8 gap-y-1 text-sm">
-          <li>Linux, Mac, Windows</li>
-          <li>CSS, XHTML, XML, JSON, SQL, NOSQL</li>
-          <li>PHP, Golang, JavaScript, Typescript, NodeJS, Python, Perl</li>
-          <li>PostgreSQL, MySQL, TimeScaleDB, Redis, Elastic Search, MongoDB</li>
-          <li>PHP-FPM, Traefik, Nginx, Apache, Varnish, RabbitMQ, SQS</li>
-          <li>Terraform, Ansible, Docker, Auto Scaling, NewRelic, DataDog</li>
-          <li>AWS, Cloud Formation, EC2, RDS, S3, ELB, Lambda, ECS/Fargate, SQS</li>
-          <li>ExpressJS, Symfony, VueJS, Bootstrap, TailwindCSS</li>
-          <li>Agile, Waterfall, Jira, ZenDesk, GH Projects</li>
-          <li>Git, Github, SVN</li>
-          <li>System Administration, Devops, UI/UX Design, Scalability, Application Performance Management</li>
-          <li>Instrumentation, Continuous Integration, TDD</li>
-        </ul>
+      <h2 class="subtitle text-lg font-bold mt-2 mb-1 border-b-2 border-primary pb-1">Technical Expertise</h2>
+      <div class="space-y-1.5">
+        <div>
+          <h3 class="font-semibold text-xs text-primary mb-1">Languages & Frameworks</h3>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="badge badge-outline badge-xs">PHP</span>
+            <span class="badge badge-outline badge-xs">JavaScript/TypeScript</span>
+            <span class="badge badge-outline badge-xs">Node.js</span>
+            <span class="badge badge-outline badge-xs">Go</span>
+            <span class="badge badge-outline badge-xs">Python</span>
+            <span class="badge badge-outline badge-xs">Vue.js</span>
+            <span class="badge badge-outline badge-xs">Express.js</span>
+            <span class="badge badge-outline badge-xs">Symfony</span>
+          </div>
+        </div>
+        <div>
+          <h3 class="font-semibold text-xs text-primary mb-1">Databases & Data Storage</h3>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="badge badge-outline badge-xs">PostgreSQL</span>
+            <span class="badge badge-outline badge-xs">MySQL</span>
+            <span class="badge badge-outline badge-xs">TimeScaleDB</span>
+            <span class="badge badge-outline badge-xs">MongoDB</span>
+            <span class="badge badge-outline badge-xs">Redis</span>
+            <span class="badge badge-outline badge-xs">Elasticsearch</span>
+          </div>
+        </div>
+        <div>
+          <h3 class="font-semibold text-xs text-primary mb-1">Cloud & Infrastructure</h3>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="badge badge-outline badge-xs">AWS (EC2, RDS, S3, Lambda, ECS)</span>
+            <span class="badge badge-outline badge-xs">Docker</span>
+            <span class="badge badge-outline badge-xs">Terraform</span>
+            <span class="badge badge-outline badge-xs">Ansible</span>
+            <span class="badge badge-outline badge-xs">CloudFormation</span>
+            <span class="badge badge-outline badge-xs">Nginx</span>
+            <span class="badge badge-outline badge-xs">Traefik</span>
+          </div>
+        </div>
+        <div>
+          <h3 class="font-semibold text-xs text-primary mb-1">DevOps & Monitoring</h3>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="badge badge-outline badge-xs">CI/CD</span>
+            <span class="badge badge-outline badge-xs">GitHub Actions</span>
+            <span class="badge badge-outline badge-xs">NewRelic</span>
+            <span class="badge badge-outline badge-xs">DataDog</span>
+            <span class="badge badge-outline badge-xs">RabbitMQ</span>
+            <span class="badge badge-outline badge-xs">SQS</span>
+          </div>
+        </div>
+        <div>
+          <h3 class="font-semibold text-sm text-primary">Frontend & Design</h3>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="badge badge-outline badge-xs">TailwindCSS</span>
+            <span class="badge badge-outline badge-xs">Bootstrap</span>
+            <span class="badge badge-outline badge-xs">CSS/SCSS</span>
+            <span class="badge badge-outline badge-xs">UI/UX Design</span>
+          </div>
+        </div>
       </div>
 
 
-      <h2 class="subtitle text-xl font-bold">Experience</h2>
+      <h2 class="subtitle text-lg font-bold mt-4 mb-3 border-b-2 border-primary pb-1">Professional Experience</h2>
 
       <ExpComponent
         company="Eight9 Design Network INC"
@@ -78,13 +136,26 @@
         location="Remote"
         date="January 2024 - Current"
       >
-        <p>
-          Started a one-person Software Consulting company offering custom tech solutions and services for business customers.
-          Primarily consulted with <strong>Kelvin Education</strong> and a few smaller companies to plan, design, and execute several projects including auth service architecture & Implementation, legacy monolith app cloud service migration, system administration, as well as designing and creating new web applications and websites.
+        <p class="leading-normal">
+          Founded software consulting firm delivering custom technical solutions for business clients. Primary engagement with <strong>Kelvin Education</strong> encompassed:
         </p>
-        <p class="text-sm">
-          PHP, NodeJS, PostgreSQL, Typescript, VueJS, Go, AWS, ECS, Lambda, Ansible, Packer, Terraform, GitHub Actions, Heroku
-        </p>
+        <ul class="list-disc ml-6">
+          <li>Architected and implemented authentication service for multi-tenant SaaS platform</li>
+          <li>Led cloud migration of legacy monolithic application to AWS architecture</li>
+          <li>Designed and developed multiple web applications and client websites</li>
+        </ul>
+        <div class="mt-2 flex flex-wrap gap-1.5">
+          <span class="badge badge-sm badge-ghost badge-xs">PHP</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Node.js</span>
+          <span class="badge badge-sm badge-ghost badge-xs">PostgreSQL</span>
+          <span class="badge badge-sm badge-ghost badge-xs">TypeScript</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Vue.js</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Go</span>
+          <span class="badge badge-sm badge-ghost badge-xs">AWS ECS</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Lambda</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Terraform</span>
+          <span class="badge badge-sm badge-ghost badge-xs">GitHub Actions</span>
+        </div>
       </ExpComponent>
 
 
@@ -94,12 +165,22 @@
         location="Remote"
         date="June 2022 - October 2024"
       >
-        <p>
-          Responsible for building, setting up, installing, and monitoring a fleet of servers at a traditional datacenter for a Blockchain Validator (Onomy Protocol). This included tooling for setup as well as monitoring the status of the systems and validator on the chain. 
+        <p class="leading-normal">
+          Built and managed production infrastructure for Blockchain Validator (Onomy Protocol):
         </p>
-        <p class="text-sm">
-          System Administration, Bash, NodeJS, Docker, Nginx, Libvirt
-        </p>
+        <ul class="list-disc ml-6">
+          <li>Deployed and configured bare-metal server fleet in traditional datacenter environment</li>
+          <li>Developed custom automation tooling for server provisioning and configuration</li>
+          <li>Implemented comprehensive monitoring system for validator nodes and chain status</li>
+        </ul>
+        <div class="mt-2 flex flex-wrap gap-1.5">
+          <span class="badge badge-sm badge-ghost badge-xs">Bash</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Node.js</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Docker</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Nginx</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Libvirt</span>
+          <span class="badge badge-sm badge-ghost badge-xs">System Administration</span>
+        </div>
       </ExpComponent>
 
       <ExpComponent
@@ -108,12 +189,24 @@
         location="Remote"
         date="November 2020 - December 2024"
       >
-        <p>
-          Responsibilities included designing and creating a customer dashboard to log, report, and notify users of power analytics and anomalies for Solar and Wind Turbine systems. The system also integrated with RTSP security cameras to run images through Ultralytics AI vision for people detection and notifying users.
+        <p class="leading-normal">
+          Designed and developed energy analytics and monitoring platform for renewable energy systems:
         </p>
-        <p class="text-sm">
-          PHP, NodeJS, PostgreSQL, TimeScaleDB, VueJS, AWS, System Administration, SMS, Queuing, Web Push Notifications, Slack API
-        </p>
+        <ul class="list-disc ml-6">
+          <li>Built real-time monitoring dashboard for Solar and Wind Turbine power analytics</li>
+          <li>Implemented anomaly detection system with multi-channel notifications (SMS, Push, Slack)</li>
+          <li>Integrated AI-powered computer vision for security monitoring using YOLO AI Models</li>
+          <li>Architected time-series data storage solution using TimeScaleDB for high-frequency sensor data</li>
+        </ul>
+        <div class="mt-2 flex flex-wrap gap-1.5">
+          <span class="badge badge-sm badge-ghost badge-xs">PHP</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Node.js</span>
+          <span class="badge badge-sm badge-ghost badge-xs">PostgreSQL</span>
+          <span class="badge badge-sm badge-ghost badge-xs">TimeScaleDB</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Vue.js</span>
+          <span class="badge badge-sm badge-ghost badge-xs">AWS</span>
+          <span class="badge badge-sm badge-ghost badge-xs">AI/ML Integration</span>
+        </div>
       </ExpComponent>
 
       <ExpComponent
@@ -122,12 +215,23 @@
         location="Remote"
         date="March 2019 - November 2020"
       >
-        <p>
-          Senior Developer on a team of 5. Developed and maintained frontend and backend components for importing, aggregating, and reporting advertisement analytics.
+        <p class="leading-normal">
+          Senior Developer on 5-person engineering team building advertising analytics platform:
         </p>
-        <p class="text-sm">
-          PHP, NodeJS, PostgreSQL, JavaScript, VueJS, Semantic UI, SCSS, JSON, Docker, AWS, Lambda, Queuing
-        </p>
+        <ul class="list-disc ml-6">
+          <li>Developed full-stack features for multi-source ad data aggregation and reporting</li>
+          <li>Built serverless data processing pipelines using AWS Lambda</li>
+          <li>Optimized complex PostgreSQL queries to improve report generation time</li>
+          <li>Implemented Vue.js dashboard with real-time analytics visualization</li>
+        </ul>
+        <div class="mt-2 flex flex-wrap gap-1.5">
+          <span class="badge badge-sm badge-ghost badge-xs">PHP</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Node.js</span>
+          <span class="badge badge-sm badge-ghost badge-xs">PostgreSQL</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Vue.js</span>
+          <span class="badge badge-sm badge-ghost badge-xs">AWS Lambda</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Docker</span>
+        </div>
       </ExpComponent>
 
       <ExpComponent
@@ -136,12 +240,21 @@
         location="Stockholm, Sweden"
         date="April 2018 - February 2019"
       >
-        <p>
-          Architected and developed cloud infrastructure for cryptocurrency mining pool server as well as a client facing mining infrastructure monitoring and reporting application. Queuing and uptime monitor system.
+        <p class="leading-normal">
+          Architected infrastructure for cryptocurrency mining operations:
         </p>
-        <p class="text-sm">
-          Golang, Python, Bash, Docker, AWS, Cloud Formation, Elastic Search (ELK Stack), PostgreSQL, MySQL, RabbitMQ, JavaScript, JQuery, C3.js Charts, CSS, Bootstrap, JSON
-        </p>
+        <ul class="list-disc ml-6">
+          <li>Utilized ELK Stack to build monitoring and reporting dashboard for mining operations</li>
+          <li>Developed automated alerting system using RabbitMQ message queues and 3rd party APIs</li>
+        </ul>
+        <div class="mt-2 flex flex-wrap gap-1.5">
+          <span class="badge badge-sm badge-ghost badge-xs">Go</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Python</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Docker</span>
+          <span class="badge badge-sm badge-ghost badge-xs">AWS</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Elasticsearch</span>
+          <span class="badge badge-sm badge-ghost badge-xs">RabbitMQ</span>
+        </div>
       </ExpComponent>
 
       <ExpComponent
@@ -153,16 +266,27 @@
         :leftWidth="3"
         :rightWidth="2"
       >
-        <p>
-          Managed team of 6 & remote team of 5. Designed & developed a paper (PDF) & online testing application with 25k-30k simultaneous students during peak usage with average response time of 150ms. Release management, continuous integration, application performance, advanced query optimization, & database performance. 
+        <p class="leading-normal">
+          <strong>Combined EdTech leadership experience across Illuminate Education, Houghton Mifflin Harcourt, and Achieve! Data Solutions:</strong>
         </p>
-        <p class="text-sm">
-          PHP, PostgreSQL, MySQL, MongoDB, Redis, Memcache, RabbitMQ, FOP, JSON, XML, QTI, AWS, Nginx, PHP-FPM, JS, Vue.js, JQuery, Highcharts, CSS, Bootstrap, Symfony, Ansible, Google APIs, New Relic, Google Analytics, Pusher, CDN
-        </p>
+        <ul class="list-disc ml-6">
+          <li>Led engineering teams totaling 11 developers (6 on-site, 5 remote)</li>
+          <li>Architected high-performance testing platform serving 25k-30k concurrent students with 150ms avg response time</li>
+          <li>Optimized complex database queries and implemented caching strategies improving system throughput</li>
+          <li>Mentored junior developers in best practices, code review, and system design</li>
+        </ul>
+        <div class="mt-2 flex flex-wrap gap-1.5">
+          <span class="badge badge-sm badge-ghost badge-xs">PHP</span>
+          <span class="badge badge-sm badge-ghost badge-xs">PostgreSQL</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Redis</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Vue.js</span>
+          <span class="badge badge-sm badge-ghost badge-xs">AWS</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Team Leadership</span>
+        </div>
       </ExpComponent>
 
 
-      <h2 class="subtitle text-xl font-bold">Education</h2>
+      <h2 class="subtitle text-lg font-bold mt-3 mb-1 border-b-2 border-primary">Education & Certifications</h2>
 
       <ExpComponent
         company="Chaffey College"
@@ -176,7 +300,8 @@
           <span class="font-semibold">Certificates:</span> Computer Information Systems (Overall CIS Certificate), Computer Support Technician, Web Page Development Level 1 - 3, Visual Basic Programmer, Network Administrator
         </p>
         <p class="">
-          <span class="font-semibold">Courses:</span> A+ exam preparation, Network + exam preparation, Core MCSE exam preparation, Fundamentals of Linux, JavaScript Programming, Cascading Style Sheets, WebMaster Tools/CSS/DHTML, MS Frontpage, Electronic Commerce, Perl Programming, PHP Programming, Visual Basic and C++ Programming
+          <span class="font-semibold text-sm">Courses:</span>
+          <span class="text-sm">A+ exam preparation, Network + exam preparation, Core MCSE exam preparation, Fundamentals of Linux, JavaScript Programming, Cascading Style Sheets, WebMaster Tools/CSS/DHTML, MS Frontpage, Electronic Commerce, Perl Programming, PHP Programming, Visual Basic and C++ Programming</span>
         </p>
       </ExpComponent>
 
@@ -187,7 +312,8 @@
         date="Fall 1998 - Spring 2001"
       >
         <p class="">
-          <span class="font-semibold">Relevant Coursework:</span> Business Studies, Economics, Keyboarding, Fundamentals of Microsoft Office, HTML web page design, Computer Maintenance, Drafting, AutoCAD, Graphic Design.
+          <span class="font-semibold">Relevant Coursework:</span>
+          <span class="text-sm">Business Studies, Economics, Keyboarding, Fundamentals of Microsoft Office, HTML web page design, Computer Maintenance, Drafting, AutoCAD, Graphic Design.</span>
         </p>
       </ExpComponent>
 
