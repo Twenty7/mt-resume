@@ -1,6 +1,7 @@
 <script setup>
   import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
   import ExpComponent from '../components/ExpComponent.vue';
+  import References from './References.vue';
 
 </script>
 <template>
@@ -300,7 +301,7 @@
           <span class="font-semibold">Certificates:</span> Computer Information Systems (Overall CIS Certificate), Computer Support Technician, Web Page Development Level 1 - 3, Visual Basic Programmer, Network Administrator
         </p>
         <p class="">
-          <span class="font-semibold text-sm">Courses:</span>
+          <span class="font-semibold text-sm">Courses: </span>
           <span class="text-sm">A+ exam preparation, Network + exam preparation, Core MCSE exam preparation, Fundamentals of Linux, JavaScript Programming, Cascading Style Sheets, WebMaster Tools/CSS/DHTML, MS Frontpage, Electronic Commerce, Perl Programming, PHP Programming, Visual Basic and C++ Programming</span>
         </p>
       </ExpComponent>
@@ -312,10 +313,12 @@
         date="Fall 1998 - Spring 2001"
       >
         <p class="">
-          <span class="font-semibold">Relevant Coursework:</span>
+          <span class="font-semibold">Relevant Coursework: </span>
           <span class="text-sm">Business Studies, Economics, Keyboarding, Fundamentals of Microsoft Office, HTML web page design, Computer Maintenance, Drafting, AutoCAD, Graphic Design.</span>
         </p>
       </ExpComponent>
+
+      <References />
 
     </div>
   </section>

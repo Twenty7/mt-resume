@@ -1,4 +1,6 @@
 import { createApp } from 'vue';
+import { createPinia } from 'pinia';
+import piniaPluginPersistedstate from 'pinia-plugin-persistedstate';
 import './main.scss';
 import App from './App.vue';
 import router from './router';
@@ -17,6 +19,10 @@ import {
   faGlobe,
   faPrint,
   faCheckCircle,
+  faPlus,
+  faInfoCircle,
+  faEdit,
+  faTrash,
 } from '@fortawesome/free-solid-svg-icons';
 library.add(
   faBars,
@@ -29,6 +35,10 @@ library.add(
   faGlobe,
   faPrint,
   faCheckCircle,
+  faPlus,
+  faInfoCircle,
+  faEdit,
+  faTrash,
 );
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 library.add(
@@ -36,6 +46,10 @@ library.add(
 );
 
 const app = createApp(App);
+
+// Create and configure Pinia store
+const pinia = createPinia();
+pinia.use(piniaPluginPersistedstate);
 
 // Global Helpers
 const getImageUrl = function(image) {
@@ -47,6 +61,7 @@ app.config.globalProperties.$getImageUrl = getImageUrl;
 // import GlobalSomething from './components/GlobalSomething.vue';
 // app.component('GlobalSomething', GlobalSomething);
 
+app.use(pinia);
 app.use(router);
 app.component('FontAwesomeIcon', FontAwesomeIcon);
 app.mount('#app');
