@@ -35,12 +35,12 @@
 </script>
 <template>
   <div class="exp-component">
-    <div class="exp-container flex mt-5 mb-2">
+    <div class="exp-container flex mt-2">
       <div :class="`w-${props.leftWidth} flex-auto`">
         <div class="subtitle font-bold">
           {{ props.company }}
         </div>
-        <div class="subtitle font-semibold" :class="props.locationClass">
+        <div class="subtitle font-semibold text-sm" :class="props.locationClass">
           {{ props.location }}
         </div>
       </div>
@@ -48,7 +48,7 @@
         <div class="subtitle font-bold">
           {{ props.title }}
         </div>
-        <div class="subtitle font-semibold">
+        <div class="subtitle font-semibold text-sm">
           {{ props.date }}
         </div>
       </div>
