@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   @page {
     size: auto;
-    margin: 8mm 8mm 8mm 8mm;
+    margin: 12mm 12mm 12mm 12mm;
     @top-left {
       margin-top: 5mm;
       content: "";
@@ -73,11 +73,21 @@ h1, h2, h3, h4, h5, h6 {
     }
     @bottom-left {
       margin-bottom: 5mm;
-      content: "";
+      font-size: 0.6em;
+      font-family: 'Noto Serif Georgian', Georgia, 'Times New Roman', Times, serif, serif;
+      content: "Matthew Taylor";
+    }
+    @bottom-center {
+      margin-bottom: 5mm;
+      font-size: 0.6em;
+      font-family: 'Noto Serif Georgian', Georgia, 'Times New Roman', Times, serif, serif;
+      content: "+1.951.315.6113 | mtaylor@eight9.net";
     }
     @bottom-right {
       margin-bottom: 5mm;
-      content: "";
+      font-size: 0.6em;
+      font-family: 'Noto Serif Georgian', Georgia, 'Times New Roman', Times, serif, serif;
+      content: "Page " counter(page) " of " counter(pages);
     }
   }
   #__vue-devtools-container__ {
