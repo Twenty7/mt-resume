@@ -59,7 +59,7 @@
           <li>PHP, Golang, JavaScript, Typescript, NodeJS, Python, Perl</li>
           <li>PostgreSQL, MySQL, TimeScaleDB, Redis, Elastic Search, MongoDB</li>
           <li>PHP-FPM, Traefik, Nginx, Apache, Varnish, RabbitMQ, SQS</li>
-          <li>Docker, Auto Scaling, Ansible, Vagrant, NewRelic, DataDog</li>
+          <li>Terraform, Ansible, Docker, Auto Scaling, NewRelic, DataDog</li>
           <li>AWS, Cloud Formation, EC2, RDS, S3, ELB, Lambda, ECS/Fargate, SQS</li>
           <li>ExpressJS, Symfony, VueJS, Bootstrap, TailwindCSS</li>
           <li>Agile, Waterfall, Jira, ZenDesk, GH Projects</li>
