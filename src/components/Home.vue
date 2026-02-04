@@ -5,14 +5,14 @@
 
 </script>
 <template>
-  <section class="mt-resume container mx-auto">
+  <section class="container mx-auto mt-resume">
 
-    <div class="inner-container text-left mx-auto border bg-base-100 border-base-300 rounded-box p-10">
+    <div class="p-10 mx-auto text-left border inner-container bg-base-100 border-base-300 rounded-box">
 
 
       <div class="flex">
-        <div class="w-1 flex-auto">
-          <div class="subtitle text-lg font-bold">
+        <div class="flex-auto w-1">
+          <div class="text-lg font-bold subtitle">
             Matthew Taylor
           </div>
           <div>
@@ -22,8 +22,8 @@
             <FontAwesomeIcon :icon="['fa', 'globe']" /> <a href="http://mt.eight9.net">mt.eight9.net</a>
           </div>
         </div>
-        <div class="w-1 flex-auto text-right">
-          <div class="subtitle text-lg font-semibold">
+        <div class="flex-auto w-1 text-right">
+          <div class="text-lg font-semibold subtitle">
             Software Developer
           </div>
           <div>
@@ -35,13 +35,13 @@
         </div>
       </div>
 
-      <h2 class="subtitle text-lg font-bold mt-1 mb-1 border-b-2 border-primary">Professional Summary</h2>
+      <h2 class="mt-1 mb-1 text-lg font-bold border-b-2 subtitle border-primary">Professional Summary</h2>
       <p class="leading-normal">
         Senior Software Developer with 15+ years of professional experience architecting and delivering high-performance web applications across Education Technology, Blockchain, Energy Analytics, and Media Advertisement industries. Proven expertise in full-stack development, cloud infrastructure, and DevOps practices. Specialized in building scalable systems capable of handling 25k+ concurrent users with sub-200ms response times. Strong track record in technical leadership, system architecture, and cross-functional collaboration.
       </p>
 
-      <h2 class="subtitle text-lg font-bold mt-2 mb-1 border-b-2 border-primary pb-1">Core Competencies</h2>
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-1 text-xs">
+      <h2 class="pb-1 mt-2 mb-1 text-lg font-bold border-b-2 subtitle border-primary">Core Competencies</h2>
+      <div class="grid grid-cols-2 gap-1 text-xs md:grid-cols-3">
         <div class="flex items-center gap-1">
           <FontAwesomeIcon :icon="['fa', 'check-circle']" class="text-secondary" />
           <span>Remote Collaboration</span>
@@ -68,10 +68,10 @@
         </div>
       </div>
 
-      <h2 class="subtitle text-lg font-bold mt-2 mb-1 border-b-2 border-primary pb-1">Technical Expertise</h2>
+      <h2 class="pb-1 mt-2 mb-1 text-lg font-bold border-b-2 subtitle border-primary">Technical Expertise</h2>
       <div class="space-y-1.5">
         <div>
-          <h3 class="font-semibold text-xs text-primary mb-1">Languages & Frameworks</h3>
+          <h3 class="mb-1 text-xs font-semibold text-primary">Languages & Frameworks</h3>
           <div class="flex flex-wrap gap-1.5">
             <span class="badge badge-outline badge-xs">PHP</span>
             <span class="badge badge-outline badge-xs">JavaScript/TypeScript</span>
@@ -79,12 +79,14 @@
             <span class="badge badge-outline badge-xs">Go</span>
             <span class="badge badge-outline badge-xs">Python</span>
             <span class="badge badge-outline badge-xs">Vue.js</span>
+            <span class="badge badge-outline badge-xs">React</span>
             <span class="badge badge-outline badge-xs">Express.js</span>
+            <span class="badge badge-outline badge-xs">Next.js</span>
             <span class="badge badge-outline badge-xs">Symfony</span>
           </div>
         </div>
         <div>
-          <h3 class="font-semibold text-xs text-primary mb-1">Databases & Data Storage</h3>
+          <h3 class="mb-1 text-xs font-semibold text-primary">Databases & Data Storage</h3>
           <div class="flex flex-wrap gap-1.5">
             <span class="badge badge-outline badge-xs">PostgreSQL</span>
             <span class="badge badge-outline badge-xs">MySQL</span>
@@ -95,7 +97,7 @@
           </div>
         </div>
         <div>
-          <h3 class="font-semibold text-xs text-primary mb-1">Cloud & Infrastructure</h3>
+          <h3 class="mb-1 text-xs font-semibold text-primary">Cloud & Infrastructure</h3>
           <div class="flex flex-wrap gap-1.5">
             <span class="badge badge-outline badge-xs">AWS (EC2, RDS, S3, Lambda, ECS)</span>
             <span class="badge badge-outline badge-xs">Docker</span>
@@ -107,7 +109,7 @@
           </div>
         </div>
         <div>
-          <h3 class="font-semibold text-xs text-primary mb-1">DevOps & Monitoring</h3>
+          <h3 class="mb-1 text-xs font-semibold text-primary">DevOps & Monitoring</h3>
           <div class="flex flex-wrap gap-1.5">
             <span class="badge badge-outline badge-xs">CI/CD</span>
             <span class="badge badge-outline badge-xs">GitHub Actions</span>
@@ -118,7 +120,7 @@
           </div>
         </div>
         <div>
-          <h3 class="font-semibold text-sm text-primary">Frontend & Design</h3>
+          <h3 class="text-sm font-semibold text-primary">Frontend & Design</h3>
           <div class="flex flex-wrap gap-1.5">
             <span class="badge badge-outline badge-xs">TailwindCSS</span>
             <span class="badge badge-outline badge-xs">Bootstrap</span>
@@ -129,7 +131,7 @@
       </div>
 
 
-      <h2 class="subtitle text-lg font-bold mt-4 mb-3 border-b-2 border-primary pb-1">Professional Experience</h2>
+      <h2 class="pb-1 mt-4 mb-3 text-lg font-bold border-b-2 subtitle border-primary">Professional Experience</h2>
 
       <ExpComponent
         company="Eight9 Design Network INC"
@@ -140,7 +142,7 @@
         <p class="leading-normal">
           Founded software consulting firm delivering custom technical solutions for business clients. Primary engagement with <strong>Kelvin Education</strong> encompassed:
         </p>
-        <ul class="list-disc ml-6">
+        <ul class="ml-6 list-disc">
           <li>Architected and implemented authentication service for multi-tenant SaaS platform</li>
           <li>Led cloud migration of legacy monolithic application to AWS architecture</li>
           <li>Designed and developed multiple web applications and client websites</li>
@@ -151,6 +153,7 @@
           <span class="badge badge-sm badge-ghost badge-xs">PostgreSQL</span>
           <span class="badge badge-sm badge-ghost badge-xs">TypeScript</span>
           <span class="badge badge-sm badge-ghost badge-xs">Vue.js</span>
+          <span class="badge badge-sm badge-ghost badge-xs">React</span>
           <span class="badge badge-sm badge-ghost badge-xs">Go</span>
           <span class="badge badge-sm badge-ghost badge-xs">AWS ECS</span>
           <span class="badge badge-sm badge-ghost badge-xs">Lambda</span>
@@ -169,7 +172,7 @@
         <p class="leading-normal">
           Built and managed production infrastructure for Blockchain Validator (Onomy Protocol):
         </p>
-        <ul class="list-disc ml-6">
+        <ul class="ml-6 list-disc">
           <li>Deployed and configured bare-metal server fleet in traditional datacenter environment</li>
           <li>Developed custom automation tooling for server provisioning and configuration</li>
           <li>Implemented comprehensive monitoring system for validator nodes and chain status</li>
@@ -193,7 +196,7 @@
         <p class="leading-normal">
           Designed and developed energy analytics and monitoring platform for renewable energy systems:
         </p>
-        <ul class="list-disc ml-6">
+        <ul class="ml-6 list-disc">
           <li>Built real-time monitoring dashboard for Solar and Wind Turbine power analytics</li>
           <li>Implemented anomaly detection system with multi-channel notifications (SMS, Push, Slack)</li>
           <li>Integrated AI-powered computer vision for security monitoring using YOLO AI Models</li>
@@ -219,7 +222,7 @@
         <p class="leading-normal">
           Senior Developer on 5-person engineering team building advertising analytics platform:
         </p>
-        <ul class="list-disc ml-6">
+        <ul class="ml-6 list-disc">
           <li>Developed full-stack features for multi-source ad data aggregation and reporting</li>
           <li>Built serverless data processing pipelines using AWS Lambda</li>
           <li>Optimized complex PostgreSQL queries to improve report generation time</li>
@@ -244,7 +247,7 @@
         <p class="leading-normal">
           Architected infrastructure for cryptocurrency mining operations:
         </p>
-        <ul class="list-disc ml-6">
+        <ul class="ml-6 list-disc">
           <li>Utilized ELK Stack to build monitoring and reporting dashboard for mining operations</li>
           <li>Developed automated alerting system using RabbitMQ message queues and 3rd party APIs</li>
         </ul>
@@ -270,7 +273,7 @@
         <p class="leading-normal">
           <strong>Combined EdTech leadership experience across Illuminate Education, Houghton Mifflin Harcourt, and Achieve! Data Solutions:</strong>
         </p>
-        <ul class="list-disc ml-6">
+        <ul class="ml-6 list-disc">
           <li>Led engineering teams totaling 11 developers (6 on-site, 5 remote)</li>
           <li>Architected high-performance testing platform serving 25k-30k concurrent students with 150ms avg response time</li>
           <li>Optimized complex database queries and implemented caching strategies improving system throughput</li>
@@ -287,7 +290,7 @@
       </ExpComponent>
 
 
-      <h2 class="subtitle text-lg font-bold mt-3 mb-1 border-b-2 border-primary">Education & Certifications</h2>
+      <h2 class="mt-3 mb-1 text-lg font-bold border-b-2 subtitle border-primary">Education & Certifications</h2>
 
       <ExpComponent
         company="Chaffey College"
@@ -301,7 +304,7 @@
           <span class="font-semibold">Certificates:</span> Computer Information Systems (Overall CIS Certificate), Computer Support Technician, Web Page Development Level 1 - 3, Visual Basic Programmer, Network Administrator
         </p>
         <p class="">
-          <span class="font-semibold text-sm">Courses: </span>
+          <span class="text-sm font-semibold">Courses: </span>
           <span class="text-sm">A+ exam preparation, Network + exam preparation, Core MCSE exam preparation, Fundamentals of Linux, JavaScript Programming, Cascading Style Sheets, WebMaster Tools/CSS/DHTML, MS Frontpage, Electronic Commerce, Perl Programming, PHP Programming, Visual Basic and C++ Programming</span>
         </p>
       </ExpComponent>
