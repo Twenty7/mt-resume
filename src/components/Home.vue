@@ -154,6 +154,7 @@
           <span class="badge badge-sm badge-ghost badge-xs">TypeScript</span>
           <span class="badge badge-sm badge-ghost badge-xs">Vue.js</span>
           <span class="badge badge-sm badge-ghost badge-xs">React</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Next.js</span>
           <span class="badge badge-sm badge-ghost badge-xs">Go</span>
           <span class="badge badge-sm badge-ghost badge-xs">AWS ECS</span>
           <span class="badge badge-sm badge-ghost badge-xs">Lambda</span>
