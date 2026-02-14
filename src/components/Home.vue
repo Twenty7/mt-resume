@@ -109,7 +109,7 @@
           </div>
         </div>
         <div>
-          <h3 class="mb-1 text-xs font-semibold text-primary">DevOps & Monitoring</h3>
+          <h3 class="mb-1 text-xs font-semibold text-primary">DevOps, Monitoring, Tools, & AI</h3>
           <div class="flex flex-wrap gap-1.5">
             <span class="badge badge-outline badge-xs">CI/CD</span>
             <span class="badge badge-outline badge-xs">GitHub Actions</span>
@@ -117,6 +117,9 @@
             <span class="badge badge-outline badge-xs">DataDog</span>
             <span class="badge badge-outline badge-xs">RabbitMQ</span>
             <span class="badge badge-outline badge-xs">SQS</span>
+	          <span class="badge badge-outline badge-xs">Claude</span>
+            <span class="badge badge-outline badge-xs">GH CoPilot</span>
+            <span class="badge badge-outline badge-xs">OpenCV</span>
           </div>
         </div>
         <div>
