@@ -27,6 +27,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
   break-after: avoid;
 }
+.badge-xxs {
+  --size: calc(var(--size-selector, 0.25rem) * 3.65);
+  font-size: 0.615rem;
+}
 
 
 @media print {

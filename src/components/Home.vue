@@ -41,7 +41,7 @@
       </p>
 
       <h2 class="pb-1 mt-2 mb-1 text-lg font-bold border-b-2 subtitle border-primary">Core Competencies</h2>
-      <div class="grid grid-cols-2 gap-1 text-xs md:grid-cols-3">
+      <div class="grid grid-cols-3 gap-1 text-xs md:grid-cols-3">
         <div class="flex items-center gap-1">
           <FontAwesomeIcon :icon="['fa', 'check-circle']" class="text-secondary" />
           <span>Remote Collaboration</span>
@@ -73,62 +73,63 @@
         <div>
           <h3 class="mb-1 text-xs font-semibold text-primary">Languages & Frameworks</h3>
           <div class="flex flex-wrap gap-1.5">
-            <span class="badge badge-outline badge-xs">PHP</span>
-            <span class="badge badge-outline badge-xs">JavaScript/TypeScript</span>
-            <span class="badge badge-outline badge-xs">Node.js</span>
-            <span class="badge badge-outline badge-xs">Go</span>
-            <span class="badge badge-outline badge-xs">Python</span>
-            <span class="badge badge-outline badge-xs">Vue.js</span>
-            <span class="badge badge-outline badge-xs">React</span>
-            <span class="badge badge-outline badge-xs">Express.js</span>
-            <span class="badge badge-outline badge-xs">Next.js</span>
-            <span class="badge badge-outline badge-xs">Symfony</span>
+            <span class="badge badge-outline badge-xxs">PHP</span>
+            <span class="badge badge-outline badge-xxs">JavaScript/TypeScript</span>
+            <span class="badge badge-outline badge-xxs">Node.js</span>
+            <span class="badge badge-outline badge-xxs">Go</span>
+            <span class="badge badge-outline badge-xxs">Python</span>
+            <span class="badge badge-outline badge-xxs">Vue.js</span>
+            <span class="badge badge-outline badge-xxs">React</span>
+            <span class="badge badge-outline badge-xxs">Express.js</span>
+            <span class="badge badge-outline badge-xxs">Next.js</span>
+            <span class="badge badge-outline badge-xxs">Symfony</span>
           </div>
         </div>
         <div>
           <h3 class="mb-1 text-xs font-semibold text-primary">Databases & Data Storage</h3>
           <div class="flex flex-wrap gap-1.5">
-            <span class="badge badge-outline badge-xs">PostgreSQL</span>
-            <span class="badge badge-outline badge-xs">MySQL</span>
-            <span class="badge badge-outline badge-xs">TimeScaleDB</span>
-            <span class="badge badge-outline badge-xs">MongoDB</span>
-            <span class="badge badge-outline badge-xs">Redis</span>
-            <span class="badge badge-outline badge-xs">Elasticsearch</span>
+            <span class="badge badge-outline badge-xxs">PostgreSQL</span>
+            <span class="badge badge-outline badge-xxs">MySQL</span>
+            <span class="badge badge-outline badge-xxs">TimeScaleDB</span>
+            <span class="badge badge-outline badge-xxs">PostGIS</span>
+            <span class="badge badge-outline badge-xxs">MongoDB</span>
+            <span class="badge badge-outline badge-xxs">Redis</span>
+            <span class="badge badge-outline badge-xxs">Elasticsearch</span>
           </div>
         </div>
         <div>
           <h3 class="mb-1 text-xs font-semibold text-primary">Cloud & Infrastructure</h3>
           <div class="flex flex-wrap gap-1.5">
-            <span class="badge badge-outline badge-xs">AWS (EC2, RDS, S3, Lambda, ECS)</span>
-            <span class="badge badge-outline badge-xs">Docker</span>
-            <span class="badge badge-outline badge-xs">Terraform</span>
-            <span class="badge badge-outline badge-xs">Ansible</span>
-            <span class="badge badge-outline badge-xs">CloudFormation</span>
-            <span class="badge badge-outline badge-xs">Nginx</span>
-            <span class="badge badge-outline badge-xs">Traefik</span>
+            <span class="badge badge-outline badge-xxs">AWS (EC2, RDS, S3, Lambda, ECS)</span>
+            <span class="badge badge-outline badge-xxs">Docker Swarm</span>
+            <span class="badge badge-outline badge-xxs">Terraform</span>
+            <span class="badge badge-outline badge-xxs">Ansible</span>
+            <span class="badge badge-outline badge-xxs">CloudFormation</span>
+            <span class="badge badge-outline badge-xxs">Nginx</span>
+            <span class="badge badge-outline badge-xxs">Traefik</span>
           </div>
         </div>
         <div>
           <h3 class="mb-1 text-xs font-semibold text-primary">DevOps, Monitoring, Tools, & AI</h3>
           <div class="flex flex-wrap gap-1.5">
-            <span class="badge badge-outline badge-xs">CI/CD</span>
-            <span class="badge badge-outline badge-xs">GitHub Actions</span>
-            <span class="badge badge-outline badge-xs">NewRelic</span>
-            <span class="badge badge-outline badge-xs">DataDog</span>
-            <span class="badge badge-outline badge-xs">RabbitMQ</span>
-            <span class="badge badge-outline badge-xs">SQS</span>
-	          <span class="badge badge-outline badge-xs">Claude</span>
-            <span class="badge badge-outline badge-xs">GH CoPilot</span>
-            <span class="badge badge-outline badge-xs">OpenCV</span>
+            <span class="badge badge-outline badge-xxs">CI/CD</span>
+            <span class="badge badge-outline badge-xxs">GitHub Actions</span>
+            <span class="badge badge-outline badge-xxs">NewRelic</span>
+            <span class="badge badge-outline badge-xxs">DataDog</span>
+            <span class="badge badge-outline badge-xxs">RabbitMQ</span>
+            <span class="badge badge-outline badge-xxs">SQS</span>
+            <span class="badge badge-outline badge-xxs">Claude</span>
+            <span class="badge badge-outline badge-xxs">GH CoPilot</span>
+            <span class="badge badge-outline badge-xxs">OpenCV</span>
           </div>
         </div>
         <div>
           <h3 class="text-sm font-semibold text-primary">Frontend & Design</h3>
           <div class="flex flex-wrap gap-1.5">
-            <span class="badge badge-outline badge-xs">TailwindCSS</span>
-            <span class="badge badge-outline badge-xs">Bootstrap</span>
-            <span class="badge badge-outline badge-xs">CSS/SCSS</span>
-            <span class="badge badge-outline badge-xs">UI/UX Design</span>
+            <span class="badge badge-outline badge-xxs">TailwindCSS</span>
+            <span class="badge badge-outline badge-xxs">Bootstrap</span>
+            <span class="badge badge-outline badge-xxs">CSS/SCSS</span>
+            <span class="badge badge-outline badge-xxs">UI/UX Design</span>
           </div>
         </div>
       </div>
@@ -145,9 +146,9 @@
         <p class="leading-normal">
           Founded software consulting firm delivering custom technical solutions for business clients. Primary engagement with <strong>Kelvin Education</strong> encompassed:
         </p>
-        <ul class="ml-6 list-disc">
+        <ul class="ml-6 text-sm list-disc">
           <li>Architected and implemented authentication service for multi-tenant SaaS platform</li>
-          <li>Led cloud migration of legacy monolithic application to AWS architecture</li>
+          <li>Led cloud migration of legacy monolithic application and accompanying microservices to multi-account AWS architecture</li>
           <li>Designed and developed multiple web applications and client websites</li>
         </ul>
         <div class="mt-2 flex flex-wrap gap-1.5">
@@ -176,7 +177,7 @@
         <p class="leading-normal">
           Built and managed production infrastructure for Blockchain Validator (Onomy Protocol):
         </p>
-        <ul class="ml-6 list-disc">
+        <ul class="ml-6 text-sm list-disc">
           <li>Deployed and configured bare-metal server fleet in traditional datacenter environment</li>
           <li>Developed custom automation tooling for server provisioning and configuration</li>
           <li>Implemented comprehensive monitoring system for validator nodes and chain status</li>
@@ -200,16 +201,18 @@
         <p class="leading-normal">
           Designed and developed energy analytics and monitoring platform for renewable energy systems:
         </p>
-        <ul class="ml-6 list-disc">
+        <ul class="ml-6 text-sm list-disc">
           <li>Built real-time monitoring dashboard for Solar and Wind Turbine power analytics</li>
           <li>Implemented anomaly detection system with multi-channel notifications (SMS, Push, Slack)</li>
           <li>Integrated AI-powered computer vision for security monitoring using YOLO AI Models</li>
           <li>Architected time-series data storage solution using TimeScaleDB for high-frequency sensor data</li>
+          <li>Implemented location based weather analytics to optimize auto mower operations</li>
         </ul>
         <div class="mt-2 flex flex-wrap gap-1.5">
           <span class="badge badge-sm badge-ghost badge-xs">PHP</span>
           <span class="badge badge-sm badge-ghost badge-xs">Node.js</span>
           <span class="badge badge-sm badge-ghost badge-xs">PostgreSQL</span>
+          <span class="badge badge-sm badge-ghost badge-xs">PostGIS</span>
           <span class="badge badge-sm badge-ghost badge-xs">TimeScaleDB</span>
           <span class="badge badge-sm badge-ghost badge-xs">Vue.js</span>
           <span class="badge badge-sm badge-ghost badge-xs">AWS</span>
@@ -226,16 +229,17 @@
         <p class="leading-normal">
           Senior Developer on 5-person engineering team building advertising analytics platform:
         </p>
-        <ul class="ml-6 list-disc">
+        <ul class="ml-6 text-sm list-disc">
           <li>Developed full-stack features for multi-source ad data aggregation and reporting</li>
           <li>Built serverless data processing pipelines using AWS Lambda</li>
-          <li>Optimized complex PostgreSQL queries to improve report generation time</li>
+          <li>Optimized complex PostgreSQL queries to improve report generation time including location based analytics</li>
           <li>Implemented Vue.js dashboard with real-time analytics visualization</li>
         </ul>
         <div class="mt-2 flex flex-wrap gap-1.5">
           <span class="badge badge-sm badge-ghost badge-xs">PHP</span>
           <span class="badge badge-sm badge-ghost badge-xs">Node.js</span>
           <span class="badge badge-sm badge-ghost badge-xs">PostgreSQL</span>
+          <span class="badge badge-sm badge-ghost badge-xs">PostGIS</span>
           <span class="badge badge-sm badge-ghost badge-xs">Vue.js</span>
           <span class="badge badge-sm badge-ghost badge-xs">AWS Lambda</span>
           <span class="badge badge-sm badge-ghost badge-xs">Docker</span>
@@ -251,7 +255,7 @@
         <p class="leading-normal">
           Architected infrastructure for cryptocurrency mining operations:
         </p>
-        <ul class="ml-6 list-disc">
+        <ul class="ml-6 text-sm list-disc">
           <li>Utilized ELK Stack to build monitoring and reporting dashboard for mining operations</li>
           <li>Developed automated alerting system using RabbitMQ message queues and 3rd party APIs</li>
         </ul>
@@ -277,7 +281,7 @@
         <p class="leading-normal">
           <strong>Combined EdTech leadership experience across Illuminate Education, Houghton Mifflin Harcourt, and Achieve! Data Solutions:</strong>
         </p>
-        <ul class="ml-6 list-disc">
+        <ul class="ml-6 text-sm list-disc">
           <li>Led engineering teams totaling 11 developers (6 on-site, 5 remote)</li>
           <li>Architected high-performance testing platform serving 25k-30k concurrent students with 150ms avg response time</li>
           <li>Optimized complex database queries and implemented caching strategies improving system throughput</li>
