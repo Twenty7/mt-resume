@@ -37,7 +37,7 @@
 
       <h2 class="mt-1 mb-1 text-lg font-bold border-b-2 subtitle border-primary">Professional Summary</h2>
       <p class="leading-normal">
-        Senior Software Developer with 15+ years of professional experience architecting and delivering high-performance web applications across Education Technology, Blockchain, Energy Analytics, and Media Advertisement industries. Proven expertise in full-stack development, cloud infrastructure, and DevOps practices. Specialized in building scalable systems capable of handling 25k+ concurrent users with sub-200ms response times. Strong track record in technical leadership, system architecture, and cross-functional collaboration.
+        Senior Fullstack Engineer with 15+ years designing high-scale distributed systems in Go, Python, and PostgreSQL. Experienced building cloud-native microservices on AWS handling 25k+ concurrent users with sub-200ms latency. Specialized in event-driven architectures, authentication systems, real-time data processing, and performance optimization.
       </p>
 
       <h2 class="pb-1 mt-2 mb-1 text-lg font-bold border-b-2 subtitle border-primary">Core Competencies</h2>
@@ -73,11 +73,11 @@
         <div>
           <h3 class="mb-1 text-xs font-semibold text-primary">Languages & Frameworks</h3>
           <div class="flex flex-wrap gap-1.5">
-            <span class="badge badge-outline badge-xxs">PHP</span>
-            <span class="badge badge-outline badge-xxs">JavaScript/TypeScript</span>
-            <span class="badge badge-outline badge-xxs">Node.js</span>
             <span class="badge badge-outline badge-xxs">Go</span>
             <span class="badge badge-outline badge-xxs">Python</span>
+            <span class="badge badge-outline badge-xxs">Node.js</span>
+            <span class="badge badge-outline badge-xxs">JavaScript/TypeScript</span>
+            <span class="badge badge-outline badge-xxs">PHP</span>
             <span class="badge badge-outline badge-xxs">Vue.js</span>
             <span class="badge badge-outline badge-xxs">React</span>
             <span class="badge badge-outline badge-xxs">Express.js</span>
@@ -149,17 +149,18 @@
         <ul class="ml-6 text-sm list-disc">
           <li>Architected and implemented authentication service for multi-tenant SaaS platform</li>
           <li>Led cloud migration of legacy monolithic application and accompanying microservices to multi-account AWS architecture</li>
-          <li>Designed and developed multiple web applications and client websites</li>
+          <li>Architected event-driven microservices for real-time data processing and API integrations</li>
         </ul>
         <div class="mt-2 flex flex-wrap gap-1.5">
-          <span class="badge badge-sm badge-ghost badge-xs">PHP</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Go</span>
           <span class="badge badge-sm badge-ghost badge-xs">Node.js</span>
-          <span class="badge badge-sm badge-ghost badge-xs">PostgreSQL</span>
+          <span class="badge badge-sm badge-ghost badge-xs">PHP</span>
           <span class="badge badge-sm badge-ghost badge-xs">TypeScript</span>
+          <span class="badge badge-sm badge-ghost badge-xs">PostgreSQL</span>
+          <span class="badge badge-sm badge-ghost badge-xs">RabbitMQ</span>
           <span class="badge badge-sm badge-ghost badge-xs">Vue.js</span>
           <span class="badge badge-sm badge-ghost badge-xs">React</span>
           <span class="badge badge-sm badge-ghost badge-xs">Next.js</span>
-          <span class="badge badge-sm badge-ghost badge-xs">Go</span>
           <span class="badge badge-sm badge-ghost badge-xs">AWS ECS</span>
           <span class="badge badge-sm badge-ghost badge-xs">Lambda</span>
           <span class="badge badge-sm badge-ghost badge-xs">Terraform</span>
@@ -183,8 +184,8 @@
           <li>Implemented comprehensive monitoring system for validator nodes and chain status</li>
         </ul>
         <div class="mt-2 flex flex-wrap gap-1.5">
-          <span class="badge badge-sm badge-ghost badge-xs">Bash</span>
           <span class="badge badge-sm badge-ghost badge-xs">Node.js</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Bash</span>
           <span class="badge badge-sm badge-ghost badge-xs">Docker</span>
           <span class="badge badge-sm badge-ghost badge-xs">Nginx</span>
           <span class="badge badge-sm badge-ghost badge-xs">Libvirt</span>
@@ -203,14 +204,15 @@
         </p>
         <ul class="ml-6 text-sm list-disc">
           <li>Built real-time monitoring dashboard for Solar and Wind Turbine power analytics</li>
-          <li>Implemented anomaly detection system with multi-channel notifications (SMS, Push, Slack)</li>
+          <li>Implemented anomaly detection system with event-driven multi-channel notifications (SMS, Push, Slack)</li>
           <li>Integrated AI-powered computer vision for security monitoring using YOLO AI Models</li>
           <li>Architected time-series data storage solution using TimeScaleDB for high-frequency sensor data</li>
           <li>Implemented location based weather analytics to optimize auto mower operations</li>
         </ul>
         <div class="mt-2 flex flex-wrap gap-1.5">
-          <span class="badge badge-sm badge-ghost badge-xs">PHP</span>
           <span class="badge badge-sm badge-ghost badge-xs">Node.js</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Python</span>
+          <span class="badge badge-sm badge-ghost badge-xs">PHP</span>
           <span class="badge badge-sm badge-ghost badge-xs">PostgreSQL</span>
           <span class="badge badge-sm badge-ghost badge-xs">PostGIS</span>
           <span class="badge badge-sm badge-ghost badge-xs">TimeScaleDB</span>
