@@ -37,7 +37,7 @@
 
       <h2 class="mt-1 mb-1 text-lg font-bold border-b-2 subtitle border-primary">Professional Summary</h2>
       <p class="leading-normal">
-        Senior Fullstack Engineer with 15+ years designing high-scale distributed systems in Go, Python, and PostgreSQL. Experienced building cloud-native microservices on AWS handling 25k+ concurrent users with sub-200ms latency. Specialized in event-driven architectures, authentication systems, real-time data processing, and performance optimization.
+        Senior Fullstack Engineer with 15+ years designing high-scale distributed systems in Go, Python, Node.JS, PHP, and PostgreSQL. Experienced building cloud-native microservices on AWS handling 25k+ concurrent users with sub-200ms latency. Specialized in event-driven architectures, authentication systems, real-time data processing, and performance optimization.
       </p>
 
       <h2 class="pb-1 mt-2 mb-1 text-lg font-bold border-b-2 subtitle border-primary">Core Competencies</h2>
