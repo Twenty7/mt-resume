@@ -197,7 +197,7 @@
         company="Clean Energy Japan"
         title="Software Developer"
         location="Remote"
-        date="November 2020 - December 2024"
+        date="January 2021 - December 2024"
       >
         <p class="leading-normal">
           Designed and developed energy analytics and monitoring platform for renewable energy systems:
@@ -226,7 +226,7 @@
         company="Townsquare Media / AnalyticOwl"
         title="Software Developer"
         location="Remote"
-        date="March 2019 - November 2020"
+        date="March 2019 - January 2021"
       >
         <p class="leading-normal">
           Senior Developer on 5-person engineering team building advertising analytics platform:
@@ -266,8 +266,10 @@
           <span class="badge badge-sm badge-ghost badge-xs">Python</span>
           <span class="badge badge-sm badge-ghost badge-xs">Docker</span>
           <span class="badge badge-sm badge-ghost badge-xs">AWS</span>
+          <span class="badge badge-sm badge-ghost badge-xs">PostgreSQL</span>
           <span class="badge badge-sm badge-ghost badge-xs">Elasticsearch</span>
           <span class="badge badge-sm badge-ghost badge-xs">RabbitMQ</span>
+          <span class="badge badge-sm badge-ghost badge-xs">CloudFormation</span>
         </div>
       </ExpComponent>
 
