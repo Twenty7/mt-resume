@@ -19,12 +19,14 @@
             <FontAwesomeIcon :icon="['fa', 'house']" /> 1210 El Paseo, Foothill Ranch, CA 92610
           </div>
           <div>
-            <FontAwesomeIcon :icon="['fa', 'globe']" /> <a href="http://mt.eight9.net">mt.eight9.net</a>
+            <span class="mr-3"><FontAwesomeIcon :icon="['fab', 'linkedin']" /> <a href="https://www.linkedin.com/in/mtaylor-twenty7/">mtaylor-twenty7</a></span>
+            <span class="mr-3"><FontAwesomeIcon :icon="['fa', 'globe']" /> <a href="http://mt.eight9.net">mt.eight9.net</a></span>
+            
           </div>
         </div>
         <div class="flex-auto w-1 text-right">
           <div class="text-lg font-semibold subtitle">
-            Software Developer
+            Senior Full-Stack Software Engineer
           </div>
           <div>
             <FontAwesomeIcon :icon="['fa', 'phone']" /> <a href="tel:+19513156113">+1.951.315.6113</a>
