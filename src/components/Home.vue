@@ -20,8 +20,7 @@
           </div>
           <div>
             <span class="mr-3"><FontAwesomeIcon :icon="['fab', 'linkedin']" /> <a href="https://linkedin.eight9.net">linkedin.eight9.net</a></span>
-            <span class="mr-3"><FontAwesomeIcon :icon="['fa', 'globe']" /> <a href="http://mt.eight9.net">mt.eight9.net</a></span>
-            
+            <span class="mr-3"><FontAwesomeIcon :icon="['fab', 'github']" /> <a href="https://github.com/twenty7">github.com/twenty7</a></span>
           </div>
         </div>
         <div class="flex-auto w-1 text-right">
@@ -32,7 +31,8 @@
             <FontAwesomeIcon :icon="['fa', 'phone']" /> <a href="tel:+19513156113">+1.951.315.6113</a>
           </div>
           <div>
-            <FontAwesomeIcon :icon="['fa', 'envelope']" /> <a href="mailto:mtaylor@eight9.net">mtaylor@eight9.net</a>
+            <span class="ml-3"><FontAwesomeIcon :icon="['fa', 'globe']" /> <a href="https://mt.eight9.net">mt.eight9.net</a></span>
+            <span class="ml-3"><FontAwesomeIcon :icon="['fa', 'envelope']" /> <a href="mailto:mtaylor@eight9.net">mtaylor@eight9.net</a></span>
           </div>
         </div>
       </div>

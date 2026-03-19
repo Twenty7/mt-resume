@@ -40,9 +40,13 @@ library.add(
   faEdit,
   faTrash,
 );
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import {
+  faLinkedin,
+  faGithub,
+} from '@fortawesome/free-brands-svg-icons'
 library.add(
-  faLinkedin
+  faLinkedin,
+  faGithub
 );
 
 const app = createApp(App);
