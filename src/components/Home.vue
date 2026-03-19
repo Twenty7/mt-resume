@@ -100,7 +100,7 @@
         <div>
           <h3 class="mb-1 text-xs font-semibold text-primary">Cloud & Infrastructure</h3>
           <div class="flex flex-wrap gap-1.5">
-            <span class="badge badge-outline badge-xxs">AWS (EC2, RDS, S3, Lambda, ECS)</span>
+            <span class="badge badge-outline badge-xxs">AWS (EC2, RDS, S3, Lambda, ECS, SQS)</span>
             <span class="badge badge-outline badge-xxs">Docker Swarm</span>
             <span class="badge badge-outline badge-xxs">Terraform</span>
             <span class="badge badge-outline badge-xxs">Ansible</span>
@@ -118,9 +118,13 @@
             <span class="badge badge-outline badge-xxs">DataDog</span>
             <span class="badge badge-outline badge-xxs">RabbitMQ</span>
             <span class="badge badge-outline badge-xxs">SQS</span>
+            <span class="badge badge-outline badge-xxs">OpenCV</span>
+            <span class="badge badge-outline badge-xxs">YOLO</span>
             <span class="badge badge-outline badge-xxs">Claude</span>
             <span class="badge badge-outline badge-xxs">GH CoPilot</span>
-            <span class="badge badge-outline badge-xxs">OpenCV</span>
+            <span class="badge badge-outline badge-xxs">Open Claw</span>
+            <span class="badge badge-outline badge-xxs">LiteLLM</span>
+
           </div>
         </div>
         <div>
@@ -138,18 +142,26 @@
       <h2 class="pb-1 mt-4 mb-3 text-lg font-bold border-b-2 subtitle border-primary">Professional Experience</h2>
 
       <ExpComponent
-        company="Eight9 Design Network INC"
-        title="Founder / Software Developer"
+        company="Eight9 Design Network INC / Consulting"
+        title="Founder / Software Engineer"
         location="Remote"
-        date="January 2024 - Current"
+        date="January 2021 - Current"
       >
         <p class="leading-normal">
-          Founded software consulting firm delivering custom technical solutions for business clients. Primary engagement with <strong>Kelvin Education</strong> encompassed:
+          Founded software consulting firm delivering custom technical solutions for business clients.
         </p>
+      </ExpComponent>
+
+      <ExpComponent
+        company="Kelvin Education"
+        title="Software Developer Consultant"
+        location="Remote"
+        date="January 2025 - February 2026"
+      >
         <ul class="ml-6 text-sm list-disc">
           <li>Architected and implemented authentication service for multi-tenant SaaS platform</li>
-          <li>Led cloud migration of legacy monolithic application and accompanying microservices to multi-account AWS architecture</li>
-          <li>Architected event-driven microservices for real-time data processing and API integrations</li>
+          <li>Planned and executed cloud migration of legacy monolithic application and accompanying microservices to multi-account AWS architecture with minimal downtime</li>
+          <li>Optimized application performance and scalability through code refactoring and infrastructure improvements</li>
         </ul>
         <div class="mt-2 flex flex-wrap gap-1.5">
           <span class="badge badge-sm badge-ghost badge-xs">Go</span>
@@ -163,15 +175,17 @@
           <span class="badge badge-sm badge-ghost badge-xs">Next.js</span>
           <span class="badge badge-sm badge-ghost badge-xs">AWS ECS</span>
           <span class="badge badge-sm badge-ghost badge-xs">Lambda</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Docker</span>
           <span class="badge badge-sm badge-ghost badge-xs">Terraform</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Ansible</span>
           <span class="badge badge-sm badge-ghost badge-xs">GitHub Actions</span>
+
         </div>
       </ExpComponent>
 
-
       <ExpComponent
         company="Lila Holdings"
-        title="Software Developer / System Administrator"
+        title="System Engineer Consultant"
         location="Remote"
         date="June 2022 - October 2024"
       >
@@ -179,7 +193,7 @@
           Built and managed production infrastructure for Blockchain Validator (Onomy Protocol):
         </p>
         <ul class="ml-6 text-sm list-disc">
-          <li>Deployed and configured bare-metal server fleet in traditional datacenter environment</li>
+          <li>Built & deployed bare-metal server fleet in traditional datacenter environment</li>
           <li>Developed custom automation tooling for server provisioning and configuration</li>
           <li>Implemented comprehensive monitoring system for validator nodes and chain status</li>
         </ul>
@@ -195,7 +209,7 @@
 
       <ExpComponent
         company="Clean Energy Japan"
-        title="Software Developer"
+        title="Software Engineer Consultant"
         location="Remote"
         date="January 2021 - December 2024"
       >
@@ -211,20 +225,23 @@
         </ul>
         <div class="mt-2 flex flex-wrap gap-1.5">
           <span class="badge badge-sm badge-ghost badge-xs">Node.js</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Go</span>
           <span class="badge badge-sm badge-ghost badge-xs">Python</span>
           <span class="badge badge-sm badge-ghost badge-xs">PHP</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Vue.js</span>
+          <span class="badge badge-sm badge-ghost badge-xs">React</span>
           <span class="badge badge-sm badge-ghost badge-xs">PostgreSQL</span>
           <span class="badge badge-sm badge-ghost badge-xs">PostGIS</span>
           <span class="badge badge-sm badge-ghost badge-xs">TimeScaleDB</span>
-          <span class="badge badge-sm badge-ghost badge-xs">Vue.js</span>
           <span class="badge badge-sm badge-ghost badge-xs">AWS</span>
+          <span class="badge badge-sm badge-ghost badge-xs">Docker Swarm</span>
           <span class="badge badge-sm badge-ghost badge-xs">AI/ML Integration</span>
         </div>
       </ExpComponent>
 
       <ExpComponent
         company="Townsquare Media / AnalyticOwl"
-        title="Software Developer"
+        title="Senior Software Engineer"
         location="Remote"
         date="March 2019 - January 2021"
       >
@@ -250,7 +267,7 @@
 
       <ExpComponent
         company="Nordic Colocation Computing AB"
-        title="Software Developer"
+        title="Senior Software Engineer"
         location="Stockholm, Sweden"
         date="April 2018 - February 2019"
       >
@@ -275,7 +292,7 @@
 
       <ExpComponent
         company="Previous History"
-        title="Manager / Software Developer"
+        title="Developer Manager / Senior Software Engineer"
         location="Illuminate Education, Houghton Mifflin Harcourt, Achieve! Data Solutions"
         date="2005 - 2018"
         locationClass="text-sm"
