@@ -19,7 +19,7 @@
             <FontAwesomeIcon :icon="['fa', 'house']" /> 1210 El Paseo, Foothill Ranch, CA 92610
           </div>
           <div>
-            <span class="mr-3"><FontAwesomeIcon :icon="['fab', 'linkedin']" /> <a href="https://www.linkedin.com/in/mtaylor-twenty7/">mtaylor-twenty7</a></span>
+            <span class="mr-3"><FontAwesomeIcon :icon="['fab', 'linkedin']" /> <a href="https://linkedin.eight9.net">linkedin.eight9.net</a></span>
             <span class="mr-3"><FontAwesomeIcon :icon="['fa', 'globe']" /> <a href="http://mt.eight9.net">mt.eight9.net</a></span>
             
           </div>
