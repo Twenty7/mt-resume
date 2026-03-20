@@ -161,7 +161,7 @@
         date="January 2025 - February 2026"
       >
         <ul class="ml-6 text-sm list-disc">
-          <li>Architected and implemented authentication service for multi-tenant SaaS platform</li>
+          <li>Implemented OAuth/OIDC based authentication service for multi-tenant SaaS platform with customized FrontEnd</li>
           <li>Planned and executed cloud migration of legacy monolithic application and accompanying microservices to multi-account AWS architecture with minimal downtime</li>
           <li>Optimized application performance and scalability through code refactoring and infrastructure improvements</li>
         </ul>
